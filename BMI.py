@@ -1,9 +1,7 @@
 # diketahui
 # tinggi dan BMI
-# berapa beratbadanya
+# berapa berat badanya ?
 tinggi = float(input("Tinggi(dlm meter):"))
 BMI = float(input("BMI:"))
 berat=BMI * tinggi**2
-x=round(berat)
-print(f"jadi beratnya adalah {x} kilogram")
-print("jadi beratnya adalah ",berat,"kilogram")
+print(f"jadi berat badan yang diperlukan orang tesebut untuk mencapai BMI {BMI} adalah {berat:.1f} kilogram")
